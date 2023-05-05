@@ -1,0 +1,56 @@
+.frame{
+  align-items: flex-start;
+  background-color: var(--white);
+  border: none;
+  display: flex;
+  gap: 70px;
+  width: 100%;
+  height: 100%;
+
+  /* part 2 css */
+  left: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.overlap-img{
+  align-items: flex-start;
+  background: linear-gradient(180deg, rgb(76.63, 141.26, 238.21) 0%, rgba(79.66, 144.36, 241.4, 0) 100%);
+  display: flex;
+  /* height: 1024px;  */
+  min-width: 500px;
+  padding: 90px 164px;
+}
+
+.man-img {
+  height: 510px;
+  object-fit: cover;
+  width: 454px;
+}
+
+.details{
+  padding: 100px 160px;
+  /* padding-left: 150px; */
+}
+
+.logo-img{
+  padding-bottom: 30px;
+  /* padding-left: 30px; */
+  width: 55%;
+  margin-left: 40px;
+}
+
+.user{
+  padding-bottom: 20px;
+}
+
+.btn{
+  /* transition-duration: 0.4s; */
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn:hover{
+  background-color: rgb(200, 196, 196);
+  color:  black;
+  border-color: black;
+}
